@@ -1,14 +1,24 @@
-# Simple SMA Crossover Strategy
+# 📊 Quant Strategy Backtest
 
-This project implements a simple moving average (SMA) crossover strategy using Backtrader.
+Добро пожаловать! Этот репозиторий — часть моего портфолио по Quant Trading.  
+Здесь представлены базовые и популярные стратегии на Python с использованием реальных исторических данных.
 
-## Features
-- SMA cross (short vs long)
-- Backtesting on historical data
-- Visualization of strategy
+---
 
-## Usage
+## 💡 Реализованные стратегии
+
+- ✅ **SMA Crossover Strategy** (пересечение скользящих средних)
+- 🔄 **Mean Reversion Strategy** (возврат к среднему)
+- ⚡ **Momentum Strategy** (инерция движения)
+- 📉 **RSI Strategy** (анализ перекупленности/перепроданности)
+- 📊 **Bollinger Bands Strategy** (волатильность и отклонения)
+
+---
+
+## 🛠️ Используемые библиотеки
+
 ```bash
-pip install -r requirements.txt
-python main.py
-```
+pandas  
+numpy  
+matplotlib  
+yfinance
